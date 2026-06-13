@@ -1,0 +1,236 @@
+<!-- <!DOCTYPE html> : Declares the document as HTML5 -->
+
+<!-- <html> : Root element of the webpage -->
+
+<!-- <head> : Contains metadata and page information -->
+
+<!-- <meta> : Provides metadata such as character encoding and viewport settings -->
+
+<!-- <title> : Sets the browser tab title -->
+
+<!-- <body> : Contains all visible webpage content -->
+
+<!-- style : Applies inline CSS styles -->
+
+<!-- <center> : Centers content horizontally (deprecated) -->
+
+<!-- <h1> : Main heading -->
+
+<!-- <h2> : Subheading -->
+
+<!-- <audio> : Embeds an audio player -->
+
+<!-- controls : Displays play, pause, volume controls -->
+
+<!-- <source> : Specifies the audio/video file source -->
+
+<!-- src : Specifies the file location -->
+
+<!-- type : Specifies the media format -->
+
+<!-- <div> : Generic container used for layout and grouping -->
+
+<!-- position:fixed : Keeps an element fixed on the screen -->
+
+<!-- background-image : Sets a background image -->
+
+<!-- background-repeat : Controls image repetition -->
+
+<!-- background-position : Sets image position -->
+
+<!-- background-size:cover : Makes image cover the entire area -->
+
+<!-- filter:blur() : Applies blur effect -->
+
+<!-- z-index : Controls stacking order of elements -->
+
+<!-- <marquee> : Creates scrolling text (obsolete) -->
+
+<!-- direction : Controls scrolling direction -->
+
+<!-- height : Sets element height -->
+
+<!-- <table> : Creates a table -->
+
+<!-- <tr> : Creates a table row -->
+
+<!-- <th> : Creates a table header cell -->
+
+<!-- <td> : Creates a table data cell -->
+
+<!-- border-collapse : Merges table borders -->
+
+<!-- margin:auto : Centers the table -->
+
+<!-- padding : Adds space inside an element -->
+
+<!-- <input> : Creates an input field -->
+
+<!-- type="radio" : Creates a radio button -->
+
+<!-- name : Groups radio buttons together -->
+
+<!-- type="text" : Creates a text input field -->
+
+<!-- placeholder : Displays hint text inside an input -->
+
+<!-- <form> : Creates a form for user input -->
+
+<!-- <textarea> : Creates a multi-line text input area -->
+
+<!-- rows : Number of visible text rows -->
+
+<!-- cols : Width of textarea in characters -->
+
+<!-- <br> : Inserts a line break -->
+
+<!-- <button> : Creates a clickable button -->
+
+<!-- type="submit" : Submits form data -->
+
+<!-- <a> : Creates a hyperlink -->
+
+<!-- href : Specifies the destination URL -->
+
+<!-- target="_blank" : Opens link in a new tab -->
+
+<!-- <footer> : Defines the footer section of the webpage -->
+
+<!-- <p> : Defines a paragraph -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toonzzy</title>
+</head>
+<body style="background:grey;color:bisque">
+    <center>
+    <h1 style="color:antiquewhite">Music Playlist</h1>
+    <h2>Avengers</h2>
+    <audio controls>
+        <source src="sun.mp3" type="audio/mpeg">
+    </audio> 
+    <h2>Interstellar</h2>
+    <audio controls>
+        <source src="inter.mp3" type="audio/mpeg">
+    </audio> 
+    <h2>Titanic</h2>
+    <audio controls>
+        <source src="titani.mp3" type="audio/mpeg">
+    </audio> 
+    </center> 
+    <!-- Background Image Layer -->
+<div style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(midnight.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -1;
+"></div>
+<marquee direction="down" height="100" style="color:goldenrod ">🎧 Music is the strongest form of magic ✨
+    Feel it. Live it. Love it 🎬
+</marquee>
+<center>
+<h1 style="color:rgb(255, 0, 255);">🎬 Music Rating</h1>
+</center>
+<table style="margin:auto;border-collapse:collapse;">
+<tr>
+<th style="border:1px solid white;padding:8px;">Movie</th>
+<th style="border:1px solid white;padding:8px;">Rating</th>
+</tr>
+
+<tr>
+<td style="border:1px solid white;padding:8px;">Avengers</td>
+<td style="border:1px solid white;padding:8px;">
+<input type="radio" name="m1">★
+<input type="radio" name="m1">★
+<input type="radio" name="m1">★
+<input type="radio" name="m1">★
+<input type="radio" name="m1">★
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid white;padding:8px;">Interstellar</td>
+<td style="border:1px solid white;padding:8px;">
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid white;padding:8px;">Titanic</td>
+<td style="border:1px solid white;padding:8px;">
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid white;padding:8px;">Batman</td>
+<td style="border:1px solid white;padding:8px;">
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+</td>
+</tr>
+
+<tr>
+<td style="border:1px solid white;padding:8px;">Inception</td>
+<td style="border:1px solid white;padding:8px;">
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+<input type="radio" name="m2">★
+</td>
+</tr>
+
+</table>
+<form>
+
+<h2 style="color:black">Movie Name:</h2>
+<input type="text" placeholder="Enter movie name" style="padding:5px;">
+
+<h2 style="color:black">Rating:</h2>
+<input type="radio" name="r">★
+<input type="radio" name="r">★
+<input type="radio" name="r">★
+<input type="radio" name="r">★
+<input type="radio" name="r">★
+
+<h2 style="color:black">Review:</h2>
+<textarea rows="4" cols="30" placeholder="Write your review here..."></textarea>
+
+<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+<center>
+<a href="https://open.spotify.com" target="_blank" style="color:goldenrod;">
+👉 Open Spotify for upcoming release of our playlist...Stay tuned❤️
+</a>
+</center>
+<footer style="background:black;color:antiquewhite;">
+    <center>
+ <p>Music playlist | Made for music lovers❤️</p>
+ </center>
+</footer>
+</body>
+</html>
